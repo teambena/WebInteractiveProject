@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" modified="2020-11-04T09:04:15.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="KcFLKd2K44l1JoJPlin7" version="13.7.3" type="github">
+  <diagram id="z3sY171VvKgvxx6rn5zB" name="Page-1">
+    <mxGraphModel dx="1209" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qwm-p3l3pJJPY104sLhy-2" value="Book name" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="203" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qwm-p3l3pJJPY104sLhy-3" value="Book Detail" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="303" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qwm-p3l3pJJPY104sLhy-4" value="Book" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AKtiPhdMAbzitdiQB1bb-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qwm-p3l3pJJPY104sLhy-5" target="Qwm-p3l3pJJPY104sLhy-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="260" />
+              <mxPoint x="90" y="370" />
+              <mxPoint x="253" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qwm-p3l3pJJPY104sLhy-5" value="&lt;u&gt;Book id&lt;/u&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="103" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qwm-p3l3pJJPY104sLhy-6" value="Book Price" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="403" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qwm-p3l3pJJPY104sLhy-7" value="name" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="203" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qwm-p3l3pJJPY104sLhy-8" value="address" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="303" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qwm-p3l3pJJPY104sLhy-9" value="User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AKtiPhdMAbzitdiQB1bb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qwm-p3l3pJJPY104sLhy-10" target="Qwm-p3l3pJJPY104sLhy-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="153" y="360" />
+              <mxPoint x="353" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qwm-p3l3pJJPY104sLhy-10" value="&lt;u&gt;User id&lt;/u&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="103" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qwm-p3l3pJJPY104sLhy-11" value="email" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="403" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qwm-p3l3pJJPY104sLhy-12" value="password" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="603" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qwm-p3l3pJJPY104sLhy-13" value="username" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="503" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qwm-p3l3pJJPY104sLhy-15" value="Book id" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="203" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qwm-p3l3pJJPY104sLhy-16" value="User id" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="303" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qwm-p3l3pJJPY104sLhy-17" value="Cart" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="390" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qwm-p3l3pJJPY104sLhy-18" value="&lt;u&gt;Cart id&lt;/u&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="103" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
