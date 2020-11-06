@@ -19,6 +19,7 @@ class Books extends Migration
             $table->string('title');
             $table->text('detail');
             $table->integer('price');
+            $table->string('image');
         });
     }
 
