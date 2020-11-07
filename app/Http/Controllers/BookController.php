@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Book;
 use Illuminate\Http\Request;
 
 class BookController extends Controller
@@ -13,7 +13,9 @@ class BookController extends Controller
      */
     public function index()
     {
-        //
+        $book = Book::all();
+        return view('book.index',compact('book'));
+
     }
 
     /**
@@ -54,9 +56,10 @@ class BookController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function showDetail($id)
     {
-        //
+        $books_id = Book::all()->where('books_id', $id);
+        return view('book.detail',compact('books_id'));
     }
 
     /**
@@ -70,6 +73,7 @@ class BookController extends Controller
     {
         //
     }
+   
 
     /**
      * Remove the specified resource from storage.
@@ -81,4 +85,6 @@ class BookController extends Controller
     {
         //
     }
+
+
 }

@@ -15,11 +15,16 @@ class Books extends Migration
     {
         //
         Schema::create('books', function (Blueprint $table) {
-            $table->integer('books_id')->autoIncrement();
+            $table->integer('books_id');
             $table->string('title');
             $table->text('detail');
             $table->integer('price');
             $table->string('image');
+        });
+
+        Schema::table('books', function(Blueprint $table) {
+            $table->primary('books_id')->autoIncrement();
+           
         });
     }
 
