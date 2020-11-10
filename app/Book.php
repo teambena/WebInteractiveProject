@@ -10,4 +10,7 @@ class Book extends Model
     protected $fillable = [
         'title', 'detail', 'price', 'image'
         ];
+
+    protected $primaryKey = 'books_id';
+
 }

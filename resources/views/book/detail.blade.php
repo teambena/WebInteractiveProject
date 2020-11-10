@@ -72,7 +72,10 @@ height: 100%;
                 @foreach ($books_id as $row)
                 <h2 class="card-title" style="margin-bottom: 10rem">{{ $row->title }}</h2>
                 <h5 class="card-title">&ensp; &ensp; &ensp; &ensp;  {{ $row->detail }}</h5>
-                <button type="button" class="btn btn-secondary btn-lg" style="text-align: center;margin-top:3rem">Add to Cart</button>
+                <hr>
+                <h2 class="text-center">$ {{$row->price}}</h2>
+                
+                <a href="{{route('cart.add',$row->books_id)}}"><button type="button" class="btn btn-secondary btn-lg" style="text-align: center;margin-top:3rem">Add to Cart</button></a>
                 <a href="/book"><button type="button" class="btn btn-dark btn-lg" style="text-align: center;margin-top:3rem">Back to Book</button></a>
                 @endforeach     
               </div>
