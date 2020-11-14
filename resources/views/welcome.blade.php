@@ -19,7 +19,7 @@
         font-weight: 200;
         margin: 0;
         background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2013/07/26/123274/e4a21754cc0d4b0ee446f41df2b2ed9d.jpg');
-        opacity: 100%;
+        opacity: 90%;
     }
 
     .full-height {
@@ -68,7 +68,7 @@
         letter-spacing: .1rem;
         text-decoration: none;
         text-transform: uppercase;
-        
+
     }
     .btn{
 

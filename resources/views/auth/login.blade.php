@@ -1,14 +1,18 @@
 @extends('layouts.app')
 
 @section('content')
+<body style="background-color: #4D648D">
+
+
 <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center" style="margin-top:70px ">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+                <div style="background-color: #2D4262;color:wheat;" class="card-header">{{ __('Login') }}</div>
 
-                <div class="card-body">
-                    <form method="POST" action="{{ route('login') }}">
+                <div class="card-body" style="background-color: #D0E1F9">
+                    {!! Form::open(['url' => 'login', 'method' => 'post']) !!}
+                    {{-- <form method="POST" action="{{ route('login') }}"> --}}
                         @csrf
 
                         <div class="form-group row">
@@ -53,7 +57,7 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-dark">
                                     {{ __('Login') }}
                                 </button>
 
@@ -64,10 +68,13 @@
                                 @endif
                             </div>
                         </div>
-                    </form>
+                    {{-- </form> --}}
+                    {!! Form::close() !!}
+
                 </div>
             </div>
         </div>
     </div>
 </div>
+</body>
 @endsection
